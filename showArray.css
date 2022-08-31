@@ -1,0 +1,21 @@
+.numbers-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+h2{
+    max-width: 80px;
+    text-align: end;
+    padding-right: 50px;
+}
+
+.numbers-item{
+    background-color: green;
+    min-width: 75px;
+    height: 75px;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+}
